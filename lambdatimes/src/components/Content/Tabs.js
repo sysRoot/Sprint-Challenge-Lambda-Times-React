@@ -22,7 +22,7 @@ const Tabs = props => {
 };
 
 Tabs.propTypes = {
-  tab: PropTypes.array,
+  tabs: PropTypes.array,
   tabSelected: PropTypes.func,
   tabHandler: PropTypes.func
 };
